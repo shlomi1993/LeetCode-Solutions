@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "name": "Linux", // linux-gcc-x64
+      "name": "Linux",  // linux-gcc-x64
       "includePath": [
         "${workspaceFolder}/**"
       ],

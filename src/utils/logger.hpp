@@ -1,5 +1,4 @@
-#ifndef SRC_UTILS_HPP
-#define SRC_UTILS_HPP
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -16,6 +15,5 @@ public:
 
 private:
     static std::string currentDateTime();
+    static void log(const std::string& label, const std::string& message);
 };
-
-#endif // SRC_UTILS_HPP

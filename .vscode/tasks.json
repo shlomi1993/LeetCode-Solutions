@@ -9,7 +9,7 @@
                 "${file}",
                 "-I",
                 "src",
-                "src/*.cpp",
+                "src/utils/*.cpp",
                 "-g",
                 "-fdiagnostics-color=always",
                 "-o",
